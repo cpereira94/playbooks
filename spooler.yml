@@ -1,6 +1,4 @@
 ---
-
-- name: Restart a service
-  win_service:
+win_service:
     name: spooler
     state: restarted
